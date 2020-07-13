@@ -1,0 +1,297 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-image:url(../img/fondo.jpg);
+    background-repeat: repeat;
+    background-size: 50%;
+}
+
+.fa{
+	font-size: 20px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.line {
+    width: 220px;
+    height: 1px;
+    background: #fff;
+    margin: auto;
+}
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fondo1{
+    background-image:url('img/preview.jpg');
+    background-size:cover;
+    height: 100vh;
+    background-position: center center;
+}
+
+.overlay1{
+    background-color: rgba(0,0,0, 0.7);
+    background-size: cover;
+    height: 100vh;
+}
+
+.slide1{
+    max-width: 1140px;
+    height: 500px;
+}
+
+.card{
+    border:0px;
+}
+
+.card .card-body{
+    background:#ECF0F1;
+    color:#000;
+    transition-duration: 0.3s;
+}
+
+.card:hover>.card-body{
+    background:#4CAC02;
+    color:fff;
+}
+
+.dropdown-menu{
+    background:#000;
+}
+
+.overlay2{
+    position: absolute;
+    height: 232px;
+    min-width: 100%;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.overlay2:hover{
+    background:rgba(0,0,0,0.75);
+    opacity: 1;
+}
+
+.overlay3{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    opacity: 0;
+    background:rgba(0,0,0,0.0);
+    transition-duration: 0.3s;
+}
+
+.overlay3:hover{
+    background:rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+.modal-content{
+    background:none;
+    border:none;
+}
+
+.modal-body{
+    padding:0;
+}
+
+.nav1 .nav-link{
+  color:#9e9e9e;
+}
+
+.nav1 .nav-link:hover{
+  color:#ffffff;
+}
+
+.nav1 .nav-item .active{
+  background-color: #007c21;
+}
+
+.size1{
+    font-size: 14px;
+}
+
+.padre{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+table td {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.btn1{
+    color:#fff;
+    background-color: #003780;
+    transition-duration: 0.3s;
+}
+
+.btn1:hover{
+    color:#fff;
+    background-color: #007c21;
+    font-weight: bold;
+}
+
+.btn2{
+  color:#007c21;
+  border:1px solid #007c21;
+}
+
+.btn2:hover{
+  color:#000000;
+  border:1px solid #000000;
+}
+
+.testimonios .nav-item .active{
+  background-color: #007c21;
+}
+
+.item1{
+    color:#9e9e9e;
+    display:block;
+    padding: 0.5rem 0;
+    border-bottom:1px solid #9e9e9e;
+    transition-duration: 0.3s;
+}
+
+.item1:hover{
+    color:#fff;
+    border-bottom:1px solid #fff;
+}
+
+.item2{
+    color:#fff;
+    display: block;
+}
+
+.item2:hover{
+    background-color: #007c21;
+    color:#fff;
+}
+
+.item3{
+  color:#9e9e9e;
+  transition-duration: 0.3s;
+}
+
+.item3:hover{
+  color:#ffffff;
+}
+
+.prev{
+  position: absolute;
+  top:50%;
+  left: 0;
+  z-index:2;
+  color:#d0d0d0;
+}
+
+.prev2{
+  position: absolute;
+  top:40%;
+  left: 0;
+  color:#d0d0d0;
+}
+
+.next{
+  position: absolute;
+  top:50%;
+  right: 0;
+  z-index:2;
+  color:#d0d0d0;
+}
+
+.carousel-indicators{
+  z-index: 2;
+}
+
+.next2{
+  position: absolute;
+  top:40%;
+  right: 0;
+  color:#d0d0d0;
+}
+
+.prev:hover,.prev2:hover,.next:hover,.next2:hover{
+  color:#ffffff;
+}
+
+.a1{
+  color:#d0d0d0;
+}
+
+.a1:hover{
+  color:#ffffff;
+}
+
+#mensaje{
+    height: 104px;
+    resize: none;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 60%;
+  z-index:1;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.galeria{
+  background-color: #003780;
+  transition: all 0.3s ease;
+}
+
+.galeria:hover{
+  background-color:#007C21;
+}
+
+.modal-content{
+  padding: 0.5rem !important;
+  background-color: #007C21;
+  border-radius: 0.25rem !important;
+}
+
+#mapa iframe{
+  display:block;
+  border:0;
+  min-width:100%;
+  height:551px;
+}
+
+@media (max-width: 480px) {
+    .icon-bar{
+        display:none;
+    }
+    body{
+      background-size: 100%;
+    }
+    #logo{
+      text-align: center;
+    }
+    #mapa{
+      min-width: 100%;
+      height: 400px;
+    }
+}
